@@ -43,12 +43,12 @@ azd package
 環境名を決めます。
 
 ```bash
-jupyter-aca
+jupyter-notebook-aca-dev
 ```
 
 ```text
 environment name '' is invalid (it should contain only alphanumeric characters and hyphens)
-? Enter a new environment name: jupyter-aca
+? Enter a new environment name: jupyter-notebook-aca-dev
 ```
 
 プレビューで確認します。

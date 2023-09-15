@@ -14,7 +14,24 @@ azd auth login
 azd package
 ```
 
-環境を構築します。
+環境名を決めます。
+
+```bash
+jupyter-aca
+```
+
+```text
+environment name '' is invalid (it should contain only alphanumeric characters and hyphens)
+? Enter a new environment name: jupyter-aca
+```
+
+プレビューで確認します。
+
+```bash
+azd provision --preview
+```
+
+環境を構築します。リージョンは「9」を選択
 
 ```bash
 azd provision
@@ -25,6 +42,12 @@ azd provision
 
 ```bash
 azd deploy
+```
+
+## 片付け
+
+```bash
+azd down --force --purge
 ```
 
 ## Jupyterのコマンド

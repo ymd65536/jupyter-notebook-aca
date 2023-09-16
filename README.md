@@ -26,6 +26,20 @@ az account list --query "[].{sub_id:id, name:name,user:user.name} | [? contains(
 az role assignment create --role "AcrPush" --resource-group "rg-jupyter-aca"
 ```
 
+## Codespaces を開く
+
+```bash
+gh codespace create
+```
+
+```bash
+gh codespace code
+```
+
+```bash
+gh codespace stop
+```
+
 ## Azureにデプロイ
 
 認証します。

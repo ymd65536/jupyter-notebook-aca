@@ -36,10 +36,6 @@ gh codespace create
 gh codespace code
 ```
 
-```bash
-gh codespace stop
-```
-
 ## Azureにデプロイ
 
 認証します。
@@ -88,6 +84,10 @@ azd deploy
 
 ```bash
 azd down --force --purge
+```
+
+```bash
+gh codespace stop
 ```
 
 ## Jupyterのコマンド
